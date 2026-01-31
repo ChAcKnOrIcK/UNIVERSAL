@@ -1,3 +1,44 @@
+:root {
+  /* colors */
+  --base-white: #ffffff;
+
+  --base-grey15: #D9DADB;
+  --base-grey30: #BCBFC2;
+  --base-grey50: #939699;
+  --base-grey85: #4B5157;
+  --base-grey100: #262D33;
+
+  --grey-blue-25: #D1E2EB;
+  --grey-blue-75: #6E99AE;
+  --blue-75: #4592FF;
+  --bluegreen-75: #3BBDC4;
+  --red-75: #FF4F52;
+  --purple-24: #E7D9FF;
+  --purple-75: #AC8EE3;
+  --orange-75: #FFA34D;
+  --green-75: #3DC47E;
+
+  --twitter: #1DA1F2;
+  --facebook: #4267B2;
+
+  /* fonts */
+  --small-regular-text: 12px 400/15px;
+  --small-bold-text: 12px 800/15px;
+
+  --medium-regular-text: 14px 400/20px;
+  --medium-bold-text: 14px 800/20px;
+  --medium-heavy-text: 14px;
+  
+  --headline6: 14px 800/20px;
+  --headline5: 16px 700/25px "Roboto Slab";
+  --headline4: 20px 700/25px "Roboto Slab";
+  --headline3: 25px 700/30px "Roboto Slab";
+  --headline2: 40px 700/50px "Roboto Slab";
+  --headline1: 55px 700/70px "Roboto Slab";
+
+  --category: 12px 800/15px;
+}
+
 /* padding для body необязателен на самом деле */
 
 html {
@@ -23,3 +64,15 @@ img {
   max-width: 100%;
 }
 
+/* -------------------------------------------------------------- */
+/* components */
+
+
+
+/* -------------------------------------------------------------- */
+
+/* main */
+
+.main {
+
+}
