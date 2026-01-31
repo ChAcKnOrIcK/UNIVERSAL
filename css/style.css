@@ -71,7 +71,29 @@ img {
 
 /* -------------------------------------------------------------- */
 
-/* main */
+.header,
+.main,
+.fotter {
+  max-width: 1366px;
+  margin: 0 auto;
+}
+
+/* header */
+
+.header {
+
+}
+
+.section-in-header {
+  margin: 0 auto;
+  width: 1240px;
+}
+
+/* section-in-header__top */
+
+.section-in-header__top {
+  border-bottom: 1px solid var(--base-grey15);
+}
 
 .main {
 
