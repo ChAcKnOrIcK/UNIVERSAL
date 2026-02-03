@@ -22,12 +22,12 @@
   --facebook: #4267B2;
 
   /* fonts */
-  --small-regular-text: 12px 400/15px;
-  --small-bold-text: 12px 800/15px;
+  --small-regular-text: 400 12px/15px "Lato";
+  --small-bold-text: 800 12px/15px "Lato";
 
-  --medium-regular-text: 14px 400/20px;
-  --medium-bold-text: 14px 800/20px;
-  --medium-heavy-text: 14px;
+  --medium-regular-text: 400 14px/20px "Lato";
+  --medium-bold-text: 700 14px/20px "Lato";
+  --medium-heavy-text: 800 14px/ "Lato";
   
   --headline6: 14px 800/20px;
   --headline5: 16px 700/25px "Roboto Slab";
@@ -36,7 +36,7 @@
   --headline2: 40px 700/50px "Roboto Slab";
   --headline1: 55px 700/70px "Roboto Slab";
 
-  --category: 12px 800/15px;
+  --category: 12px 800/15px "Lato";
 }
 
 /* padding для body необязателен на самом деле */
@@ -81,18 +81,79 @@ img {
 /* header */
 
 .header {
-
+  display: flex;
+  justify-content: center;
 }
 
 .section-in-header {
-  margin: 0 auto;
-  width: 1240px;
+  /* margin: 0 auto;*/
+  width: 1240px; 
 }
 
 /* section-in-header__top */
 
 .section-in-header__top {
+  display: flex;
   border-bottom: 1px solid var(--base-grey15);
+}
+
+/* section-in-header__left-block */
+
+.section-in-header__left-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  max-width: 114px;
+  padding: 15px 25px 15px 0px;
+  border-right: 1px solid var(--base-grey15);
+}
+
+/* section-in-header__sections */
+
+.section-in-header__sections-text {
+  font: var(--medium-bold-text);
+}
+
+/* sectjion-in-header__input */
+
+.section-in-header__input {
+  width: 733px;
+  font: var(--medium-regular-text);
+  padding-left: 40px;
+
+  background-image: url("../img/header-img/Search.png");
+  background-repeat: no-repeat;
+  background-position: 12px center;
+  background-size: 16px 16px;
+
+  border: none;
+}
+
+/* section-in-header__right-block */
+
+.section-in-header__right-block {
+  display: flex;
+  gap: 10px;
+  max-width: 195px;
+}
+
+/* section-in-header__image */
+
+.section-in-header__image {
+  display: block;
+}
+
+/* section-in-header__subscribe */
+
+.section-in-header__subscribe {
+  display: inline-block;
+}
+
+/* section-in-header__sign-in-block */
+
+.section-in-header__sign-in-block {
+
 }
 
 .main {
