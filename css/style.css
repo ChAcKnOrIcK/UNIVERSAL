@@ -81,13 +81,13 @@ img {
 /* header */
 
 .header {
-  display: flex;
   justify-content: center;
 }
 
 .section-in-header {
   /* margin: 0 auto; */
-  width: 1240px; 
+  width: 1140px; 
+  max-height: 135px;
 }
 
 /* section-in-header__top */
@@ -107,7 +107,7 @@ img {
   justify-content: center;
   align-items: center;
   gap: 15px;
-  max-width: 114px;
+  max-width: 115px;
   padding: 15px 25px 15px 0px;
   border-right: 1px solid var(--base-grey15);
 }
@@ -123,7 +123,7 @@ img {
 .section-in-header__input {
   width: 733px;
   font: var(--medium-regular-text);
-  padding-left: 40px;
+  padding-left: 55px;
 
   background-image: url("../img/header-img/Search.png");
   background-repeat: no-repeat;
@@ -140,14 +140,14 @@ img {
   gap: 10px;
   max-width: 195px;
   padding-top: 7px;
-  margin-right: 25px;
+  margin-right: 60px;
 }
 
 /* section-in-header__image */
 
 .section-in-header__image {
-  width: 60px;
-  height: 41px;
+  width: 66px;
+  height: 44px;
   object-fit: cover;
   display: block;
   border-left: 3px solid var(--base-grey30);
@@ -169,7 +169,6 @@ img {
   display: block;
   font: var(--small-bold-text);
   color: var(--base-grey100);
-  width: 119px;
 }
 
 /* section-in-header__second */
@@ -194,6 +193,60 @@ img {
   font: var(--medium-regular-text);
   color: var(--base-grey85);
 }
+
+/* section-in-header__bottom */
+
+.section-in-header__bottom {
+  display: flex;
+  align-items: center;
+}
+/* section-in-header__left-img */
+
+.section-in-header__left-img {
+  margin-left: 30px;
+  margin-right: 15px;
+  display: inline-block;
+}
+
+/* section-in-header__title */
+
+.section-in-header__title {
+  font: var(--medium-regular-text);
+  color: var(--base-grey85);
+}
+
+/* section-in-header__Logo */
+
+.section-in-header__Logo {
+  margin-left: 130px;
+  margin-right: 186px;
+}
+
+/* section-in-header__date */
+
+.section-in-header__date {
+  /* width: 195px; */
+  margin-right: 64px;
+  font: var(--medium-regular-text);
+  color: var(--base-grey85);
+}
+
+/* section-in-header__weather-block */
+
+.section-in-header__weather-block {
+  display: flex;
+  gap: 10px;
+}
+
+/* section-in-header__value */
+
+.section-in-header__value {
+  font: var(--medium-regular-text);
+  color: var(grey85);
+}
+
+/* ------------------------------------------------------------ */
+
 
 .main {
 
