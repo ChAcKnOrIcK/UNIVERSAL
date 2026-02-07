@@ -810,6 +810,18 @@ img {
 .articles__third-block {
   padding: 45px 0px 39px 10px;
   border-bottom: 1px solid var(--base-grey50);
+  position: relative;
+}
+
+.articles__third-block::before {
+  content: "";
+  position: absolute;
+  background-image: url(../img/articles-img/articles-third-img/Quote.png);
+  opacity: 75%;
+  width: 40px;
+  height: 40px;
+  top: 35px;
+  left: 0px;
 }
 
 .articles__third-h4 {
