@@ -700,6 +700,19 @@ img {
   padding: 25px;
   background-image: url("../img/articles-img/background-second-block.png");
   max-height: 370px;
+  position: relative;
+}
+
+.articles__block_second::before {
+  content: "Popular";
+  position: absolute;
+  font: var(--small-bold-text);
+  color: var(--base-white);
+  background-color: var(--green-75);
+  padding: 5px 12px;
+  border-radius: 3px;
+  max-width: 66px;
+  max-height: 25px;
 }
 
 .articles__second-category {
@@ -875,3 +888,33 @@ img {
   color: var(--base-grey50);
 }
 
+
+/* ===================================================================================================================================== */
+
+
+/* cta section */
+
+.cta {
+  background-image: url(../img/cta-image/backgound-image.png);
+  padding: 50px 210px 55px;
+  text-align: center;
+}
+
+.cta__h2 {
+  font: var(--headline2);
+  color: var(--base-white);
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+.cta__btn {
+  padding: 10px 20px 10px 25px;
+  border-radius: 20px; 
+  border: none;
+  background-color: var(--blue-75);
+  color: var(--base-white);
+}
+
+.cta__btn img {
+  vertical-align: middle;
+}
