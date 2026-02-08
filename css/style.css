@@ -930,3 +930,140 @@ img {
 .cta__btn img {
   vertical-align: middle;
 }
+
+
+
+/* ===================================================================================================================================== */
+
+/* news */
+
+.news {
+  padding: 60px 113px 60px;
+  background-color: var(--base-grey05);
+  display: flex;
+  gap: 29px;
+}
+
+.news__left {
+  padding: 0 25px;
+  max-width: 848px;
+}
+
+.news__block-left {
+  display: flex;
+  gap: 25px;
+  max-height: 245px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid var(--base-grey15);
+  cursor: pointer;
+}
+
+.news__block-category {
+  font: var(--category);
+  text-transform: uppercase;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.news__block-category_blue {
+  color: var(--blue-75);
+}
+
+.news__block-category_bluegreen {
+  color: var(--bluegreen-75);
+}
+
+.news__block-category_red {
+  color: var(--red-75);
+}
+
+.news__block-category_purple {
+  color: var(--purple-75);
+}
+
+.news__block-h4 {
+  font: var(--headline4);
+  color: var(--base-grey100);
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.news__block-desc {
+  font: var(--medium-regular-text);
+  color: var(--base-grey85);
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.news__block-info {
+  display: flex;
+}
+
+.news__block-date {
+  font: var(--small-regular-text);
+  color: var(--base-grey50);
+  margin-right: 10px;
+}
+
+.news__block-chat {
+  margin-right: 5px;
+}
+
+.news__block-quantity {
+  font: var(--small-regular-text);
+  color: var(--base-grey50);
+  margin-right: 10px;
+}
+
+.news__block-likes {
+  margin-right: 5px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------- */
+
+.news__right {
+  max-width: 263px;
+}
+
+.news__h6 {
+  font: var(--headline6);
+  color: var(--base-grey100);
+  text-transform: uppercase;
+  padding: 20px 25px 19px;
+  border-bottom: 1px solid var(--base-grey15);
+  margin: 0;
+}
+
+.news__right-body {
+  padding: 17px 25px;
+}
+
+.news__right-block {
+  cursor: pointer;
+  display: flex;
+  gap: 10px;
+  width: 213px;
+  padding-bottom: 17px;
+  padding-top: 17px;
+  border-bottom: 1px solid var(--base-grey15);
+}
+
+.news__right-title {
+  display: inline-block;
+  font: var(--medium-regular-text);
+  color: var(--base-grey85);
+  margin-bottom: 5px;
+}
+
+.news__right-activity {
+  font: var(--small-regular-text);
+  color: var(--base-grey50);
+}
+
+.news__right-link {
+  font: var(--medium-bold-text);
+  color: var(--base-grey50);
+  padding: 11px 98px 14px 97px;
+  cursor: pointer;
+}
