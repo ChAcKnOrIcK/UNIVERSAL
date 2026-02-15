@@ -31,7 +31,9 @@
 
   --medium-regular-text: 400 14px/20px "Lato";
   --medium-bold-text: 700 14px/20px "Lato";
-  --medium-heavy-text: 800 14px/ "Lato";
+  --medium-heavy-text: 800 100px/75px "Lato";
+  
+  --large-regular-text: 400 18px/30px "Lato";
   
   --headline6: 800 14px/20px "Lato";
   --headline5: 700 16px/25px "Roboto Slab";
@@ -423,6 +425,7 @@ img {
   display: inline-block;
   font: var(--category);
   color: var(--blue-75);
+  text-transform: uppercase;
 }
 
 /* hero__heading2 */
@@ -1454,4 +1457,206 @@ img {
   max-width: 750px;
   max-height: 40px;
   margin: 0;
+}
+
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+/* article-page */
+
+.first-section {
+  background-image: url(../img/article-page-images/hero/Image.png);
+  padding: 60px 210px 60px 210px;
+  position: relative;
+}
+
+.first-section::after {
+  content: "";
+  position: absolute;
+  background: url(../img/article-page-images/navigation-icon/Bookmark.png);
+  width: 30px;
+  height: 30px;
+  top: 150px;
+  left: 113px;
+}
+
+.first-section__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 52px;
+}
+
+.first-section__link {
+  display: inline-block;
+  font: var(--category);
+  color: var(--blue-75);
+  text-transform: uppercase;
+}
+
+.first-section__navigation-block {
+  display: flex;
+  align-items: center;
+  font: var(--medium-bold-text);
+  color: var(--base-white);
+}
+
+.first-section__home-link {
+  margin-left: 5px;
+  margin-right: 30px;
+}
+
+.first-section__navigation-left {
+  display: flex;
+}
+
+.first-section__navigation-right {
+  display: flex;
+  gap: 20px;
+}
+
+.first-section__navigation-link {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.first-section__h1 {
+  font: var(--headline1);
+  max-width: 750px;
+  margin: 0;
+  margin-bottom: 30px;
+  color: var(--base-white);
+}
+
+.first-section__desc {
+  font: var(--large-regular-text);
+  max-width: 556px;
+  margin: 0;
+  margin-bottom: 60px;
+  color: var(--base-white);
+}
+
+.first-section__bottom {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.first-section__info {
+  font: var(--small-regular-text);
+  color: var(--base-white);
+  opacity: 85%;
+  display: flex;
+  align-items: center;
+}
+
+.first-section__date {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.first-section__icon {
+  opacity: 40%;
+  margin-right: 5px;
+}
+
+.first-section__quantity {
+  margin-right: 20px;
+}
+
+.first-section__button {
+  border: 1px solid var(--base-white);
+  border-radius: 25px;
+  padding: 10px 25px 10px 20px;
+  font: var(--medium-bold-text);
+  color: var(--base-white);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: none;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------- */
+
+.second-section {
+  padding: 60px 200px 15px;
+  position: relative;
+}
+
+.second-section__card {
+  position: absolute;
+  top: -100px;
+  left: 892px;
+  background-color: var(--base-white);
+  border: 1px solid var(--base-grey15);
+  border-radius: 5px;
+  text-align: center;
+}
+
+.second-section__top {
+  padding: 35px 57px 0px;
+}
+
+.second-section__h4 {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font: var(--headline4);
+  color: var(--base-grey100);
+}
+
+.second-section__role {
+  font: var(--medium-regular-text);
+  color: var(--base-grey85);
+  margin-bottom: 15px;
+  display: block;
+}
+
+.second-section__quantity {
+  font: var(--medium-bold-text);
+  color: var(--base-grey100);
+  margin-bottom: 25px;
+  display: inline-block;
+}
+
+.second-section__card-icons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 34px;
+}
+
+.second-section__hr {
+  margin: 0;
+  border: none;
+  height: 1px;
+  background-color: var(--base-grey15);
+}
+
+.second-section__link {
+  display: block;
+  padding: 12px 0px 13px;
+}
+
+.second-section__block {
+  display: flex;
+  align-items: center;
+}
+
+.second-section__M {
+  width: 96px;
+  height: 75px;
+  color: var(--blue-75);
+  font: var(--medium-heavy-text)
+}
+
+.second-section__desc {
+  margin: 0;
+  font: var(--large-regular-text);
+  color: var(--base-grey85);
+  max-width: 524px;
+}
+
+.second {
+  max-widtH: 623px;
 }
