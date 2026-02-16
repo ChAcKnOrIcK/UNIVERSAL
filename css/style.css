@@ -1687,3 +1687,101 @@ img {
 /* ===================================================================================================================================== */
 
 
+.fifth-section {
+  padding: 30px 113px 30px;
+}
+
+.fifth-section__card {
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+}
+
+.fifth-section__card::after {
+  content: "";
+  position: absolute;
+  background-image: url(../img/article-page-images/fifth-section-img/Arrow.png);
+  width: 60px;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  top: 248px;
+  left: 35px;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.fifth-section__card::before {
+  content: "";
+  position: absolute;
+  background-image: url(../img/article-page-images/fifth-section-img/Arrow.svg);
+  width: 60px;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  top: 248px;
+  right: 35px;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.fifth-section__background-img {
+  display: block;
+  position: relative;
+  width: 1140px;
+  height: 555px;
+}
+
+.fifth-section__body {
+  padding: 12px 35px 13px;
+  max-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid var(--base-grey15);
+  border-top: none;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.fifth-section__p {
+  margin: 0;
+  max-width: 807px;
+  display: inline-block;
+  font: var(--medium-regular-text);
+  color: var(--base-grey85);
+  margin-right: 35px;
+}
+
+.fifth-section__profile {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 12px 0px 13px 30px;
+  border-left: 1px solid var(--base-grey15);
+  cursor: pointer;
+}
+
+.fifth-section__info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.fifth-section__name {
+  display: inline-block;
+  font: var(--medium-regular-text);
+  color: var(--base-grey85);
+}
+
+.fifth-section__role {
+  font: var(--small-regular-text);
+  color: var(--base-grey50);
+}
+
+
+/* ===================================================================================================================================== */
+
+
