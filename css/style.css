@@ -1660,3 +1660,30 @@ img {
 .second {
   max-widtH: 623px;
 }
+
+
+/* ===================================================================================================================================== */
+
+
+.third-section {
+  padding: 30px 533px 0px 210px;
+}
+
+.third-section__h3 {
+  font: var(--headline3);
+  margin: 0;
+  margin-bottom: 30px;
+  color: var(--base-grey100);
+}
+
+.third-section__desc {
+  font: var(--large-regular-text);
+  margin: 0;
+  margin-bottom: 30px;
+  color: var(--base-grey85);
+}
+
+
+/* ===================================================================================================================================== */
+
+
