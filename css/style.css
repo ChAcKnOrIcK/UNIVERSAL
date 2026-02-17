@@ -2040,3 +2040,61 @@ img {
   border: 1px solid var(--base-grey30);
   cursor: pointer;
 }
+
+
+/* ===================================================================================================================================== */
+
+
+.eighth-section {
+  padding: 60px 113px 90px;
+}
+
+.eighth-section__main {
+  display: flex;
+}
+
+.eighth-section__card {
+  max-width: 263px;
+  margin-right: 29px;
+}
+
+.eighth-section__card:nth-child(even) {
+  margin-right: 30px;
+}
+
+.eighth-section__card:last-child {
+  margin: 0;
+}
+
+.eighth-section__img {
+  display: block;
+}
+
+.eighth-section__heading {
+  font: var(--headline5);
+  margin: 15px 0;
+  color: var(--base-grey100);
+}
+
+.eighth-section__info {
+  font: var(--small-regular-text);
+  color: var(grey50);
+}
+
+.eighth-section__info,
+.eighth-section__block {
+  display: flex;
+  align-items: center;
+}
+
+.eighth-section__info {
+  gap: 10px;
+}
+
+.eighth-section__block {
+  gap: 5px;
+}
+
+.eighth-section__comment-block {
+  cursor: pointer;
+}
