@@ -880,12 +880,14 @@ img {
   padding: 11px 98px 14px 97px;
   font: var(--medium-bold-text);
   color: var(--base-white);
+  cursor: pointer;
 }
 
 /* ----------------------------------------------------------------------------------- */
 
 .articles__block_fourth {
   grid-row: 3/5;
+  cursor: pointer;
 }
 
 .articles__fourth-img {
@@ -949,6 +951,7 @@ img {
   border: none;
   background-color: var(--blue-75);
   color: var(--base-white);
+  cursor: pointer;
 }
 
 .cta__btn img {
@@ -1164,7 +1167,6 @@ img {
 
 .highlighted-news__block {
   border-radius: 10px;
-  cursor: pointer;
 }
 
 .highlighted-news__first-block {
@@ -1226,6 +1228,7 @@ img {
   color: var(--base-white);
   background-color: var(--blue-75);
   margin-bottom: 105px;
+  cursor: pointer;
 }
 
 .highlighted-news__btn img {
@@ -1459,6 +1462,10 @@ img {
 .footer__bottom-right {
   display: flex;
   gap: 15px;
+}
+
+.footer__bottom-right img {
+  cursor: pointer;
 }
 
 .footer__bottom-social {
